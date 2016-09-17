@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "450178808320",
+    "firebase_url": "https://hackthenorth16-1876.firebaseio.com",
+    "project_id": "hackthenorth16-1876",
+    "storage_bucket": "hackthenorth16-1876.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450178808320:android:f38b52f8bde19eb0",
+        "android_client_info": {
+          "package_name": "western.musicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450178808320-fbav449vfpcc4d2gccn5p7oh8opkiam3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "western.musicapp",
+            "certificate_hash": "97D3DC24798AEFEBABBEA2BDF3A1E6C7E32B60C9"
+          }
+        },
+        {
+          "client_id": "450178808320-rdfmrv5235i9qd4d9fb3icjg10btvnh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkhHWGXAL6uQiaQul3N4gEkROBCkPR06w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450178808320-rdfmrv5235i9qd4d9fb3icjg10btvnh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
