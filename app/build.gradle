@@ -13,7 +13,7 @@ android {
     buildToolsVersion "24.0.2"
     defaultConfig {
         applicationId "western.musicapp"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
@@ -39,6 +39,7 @@ dependencies {
     compile 'com.google.firebase:firebase-database:9.4.0'
     compile 'com.google.android.gms:play-services-auth:9.4.0'
     compile 'com.google.apis:google-api-services-youtube:v3-rev178-1.22.0'
+    compile 'com.firebaseui:firebase-ui:0.5.3'
     compile files('libs/YouTubeAndroidPlayerApi.jar')
 }
 
