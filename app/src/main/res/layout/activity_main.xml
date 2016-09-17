@@ -55,5 +55,6 @@
         android:layout_alignLeft="@+id/buttonHost"
         android:layout_alignStart="@+id/buttonHost"
         android:layout_marginTop="109dp"
-        android:textColor="@color/abc_input_method_navigation_guard" />
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:onClick="switchToGuest" />
 </RelativeLayout>

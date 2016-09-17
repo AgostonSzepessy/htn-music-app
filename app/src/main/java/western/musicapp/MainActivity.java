@@ -22,4 +22,11 @@ public class MainActivity extends AppCompatActivity
         startActivity(hostIntent);
 
 	}
+
+    public void switchToGuest(View view){
+
+        Intent guestIntent = new Intent(this, GuestActivity.class);
+        startActivity(guestIntent);
+
+    }
 }
