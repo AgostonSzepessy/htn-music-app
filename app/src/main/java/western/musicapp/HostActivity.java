@@ -16,6 +16,6 @@ public class HostActivity extends AppCompatActivity
 
 	public void getSearchResults(View view)
 	{
-
+		String results;
 	}
 }
