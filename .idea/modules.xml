@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/htn-music-app.iml" filepath="$PROJECT_DIR$/htn-music-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/musicapp.iml" filepath="$PROJECT_DIR$/musicapp.iml" />
     </modules>
   </component>
 </project>

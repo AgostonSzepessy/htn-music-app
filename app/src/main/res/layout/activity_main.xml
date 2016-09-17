@@ -17,9 +17,10 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Music App"
         android:id="@+id/mainTextView"
-        android:textColor="@color/abc_background_cache_hint_selector_material_light"
+        android:textColor="@color/abc_primary_text_disable_only_material_dark"
         android:textSize="28sp"
         android:fontFamily="@string/abc_action_bar_home_description"
+        android:layout_marginTop="49dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
@@ -32,7 +33,7 @@
         android:layout_marginTop="63dp"
         android:layout_below="@+id/mainTextView"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/abc_input_method_navigation_guard"
+        android:textColor="@color/abc_primary_text_material_dark"
         android:textSize="20sp" />
 
     <Button
@@ -43,7 +44,7 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="54dp"
-        android:textColor="@color/abc_input_method_navigation_guard"
+        android:textColor="@color/abc_primary_text_material_dark"
         android:onClick="switchToHost"/>
 
     <Button
@@ -55,5 +56,6 @@
         android:layout_alignLeft="@+id/buttonHost"
         android:layout_alignStart="@+id/buttonHost"
         android:layout_marginTop="109dp"
-        android:textColor="@color/abc_input_method_navigation_guard" />
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:onClick="switchToGuest" />
 </RelativeLayout>
