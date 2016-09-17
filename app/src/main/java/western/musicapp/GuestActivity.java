@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.google.android.youtube.player.YouTubeApiServiceUtil;
+import com.google.api.services.youtube.YouTube;
 
 public class GuestActivity extends AppCompatActivity
 {
@@ -19,5 +20,6 @@ public class GuestActivity extends AppCompatActivity
 	public void getSearchResults(View view)
 	{
 		String results;
+		
 	}
 }
