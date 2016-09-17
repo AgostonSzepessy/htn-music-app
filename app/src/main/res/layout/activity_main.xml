@@ -8,10 +8,52 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="western.musicapp.MainActivity">
+    tools:context="western.musicapp.MainActivity"
+    android:background="@android:color/holo_blue_dark">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Music App"
+        android:id="@+id/mainTextView"
+        android:textColor="@color/abc_background_cache_hint_selector_material_light"
+        android:textSize="28sp"
+        android:fontFamily="@string/abc_action_bar_home_description"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select whether Host or Guest phone"
+        android:id="@+id/textView"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/mainTextView"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Host"
+        android:id="@+id/buttonHost"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:onClick="switchToHost"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guest"
+        android:id="@+id/buttonGuest"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/buttonHost"
+        android:layout_alignStart="@+id/buttonHost"
+        android:layout_marginTop="109dp"
+        android:textColor="@color/abc_input_method_navigation_guard" />
 </RelativeLayout>
