@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity
 
 	public void switchToHost(View view){
 
-		Intent hostIntent = new Intent(this, HostActivity.class);
+		Intent hostIntent = new Intent(this, GuestActivity.class);
         startActivity(hostIntent);
 
 	}
